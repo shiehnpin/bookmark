@@ -1,5 +1,7 @@
 FORMAT: 1A
-HOST: http://polls.apiblueprint.org/
+
+[Slide](https://docs.google.com/presentation/d/1W5G7lemPaLOvz9bxVRCwEKB6nqizvJntIfszacd4uUw/edit?usp=sharing)
+[SampleCode](https://github.com/shiehnpin/SimpleBookmark)
 
 # bookmark
 
