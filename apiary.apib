@@ -1,5 +1,4 @@
 FORMAT: 1A
-HOST: http://polls.apiblueprint.org/
 
 # bookmark
 
@@ -23,6 +22,7 @@ Bookmark 提供使用者新增/修改/刪除/取得書摘的RESTful API
                 "text":"所謂一步都沒有走出過內心的事情，在這個世界是不存在的。"
             }
         ]
+
 
 ### Create a New Bookmark [POST]
 
@@ -57,7 +57,6 @@ Bookmark 提供使用者新增/修改/刪除/取得書摘的RESTful API
                 }
             ]
             
-            ## Bookmarks Collection [/bookmarks]
 
 ## Bookmarks item [/bookmarks/{id}]
 
@@ -71,7 +70,7 @@ Bookmark 提供使用者新增/修改/刪除/取得書摘的RESTful API
 + Request (application/json)
 
         {
-            "text":"與Code戰鬥的人，應當小心自己不要成為Code。當你凝視Bug，Bug也凝視著你。"
+            "text":"與Bug戰鬥的人，應當小心自己不要成為Bug。當你凝視深淵，深淵也凝視著你。"
         }
 
 + Response 200 (application/json)
@@ -85,7 +84,7 @@ Bookmark 提供使用者新增/修改/刪除/取得書摘的RESTful API
             
             {
                 "id":3,
-                "text":"與Code戰鬥的人，應當小心自己不要成為Code。當你凝視Bug，Bug也凝視著你。"
+                "text":"與Bug戰鬥的人，應當小心自己不要成為Bug。當你凝視深淵，深也凝視著你。"
             }
             
 ### Delete Bookmark [DELETE]
